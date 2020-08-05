@@ -1,0 +1,100 @@
+/* =============
+*  Login Style   *
+================ */
+
+body {
+    background-color: #f7f7f7;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+.border-left-none {
+    border-left: 0 !important;
+}
+.border-right-none {
+    border-right: 0 !important;
+}
+.border-grey {
+    border-color: #ced4da !important;
+}
+.box-shadow-none {
+    box-shadow: none !important;
+}
+.text-small {
+    font-size: 12px;
+}
+.form-control::placeholder {
+    font-size: 14px;
+    color: #aaaaaa;
+}
+.divider-text {
+    position: relative;
+    text-align: center;
+}
+.divider-text:before {
+    position: absolute;
+    content: '';
+    border-top: 1px solid #cccccc;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}
+.divider-text span {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 10;
+    padding: 0 10px;
+    font-size: 13px;
+    color: #cccccc;
+}
+.login-wrapper {
+    width: 500px;
+    margin: 50px auto;
+    padding: 40px 60px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.04);
+}
+.btn-login {
+    position: relative;
+}
+.btn-login i {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    width: 3rem;
+    transition: all .2s ease-in-out;
+}
+.btn-login:hover i {
+    right: -7px;
+}
+.btn-social {
+    position: relative;
+    font-size: 1rem;
+    padding-left: 3rem;
+}
+.btn-social i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    width: 3rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.btn-google, .btn-google:hover {
+    background-color: #DB4437;
+    color: #ffffff;
+}
+.btn-facebook, .btn-facebook:hover {
+    background-color: #4267B2;
+    color: #ffffff;
+}
+
+/* =================
+*  Mobile Responsive *
+==================== */
+
+@media (max-width: 500px) {
+    .login-wrapper {
+        width: 90%;
+    }
+}

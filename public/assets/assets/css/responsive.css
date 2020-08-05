@@ -1,0 +1,22 @@
+/* =============
+*  Mobile Style  *
+================ */
+
+@media (max-width:500px) {
+    body.vertical-menu {
+        padding-left: 0px;
+        transition: all .5s ease-in-out;
+    }
+    .navbar-main {
+        left: 0px;
+        transition: all .5s ease-in-out;
+    }
+    .main-menu-sidebar {
+        width: 0px;
+        transition: all .5s ease-in-out;
+    }
+    .toggle-sidebar {
+        background-color: #1B1D4E;
+        color: #ffffff;
+    }
+}

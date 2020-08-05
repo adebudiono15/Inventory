@@ -1,0 +1,175 @@
+/* ===========
+*  Color Theme *
+============== */
+
+body.dark-theme {
+    background-color: #32345d;
+}
+.dark-theme .logo {
+    color: #BFC3FF;
+}
+.dark-theme .main-menu-sidebar {
+    background-color: #1B1D4E;
+    color: rgb(134, 134, 134);
+}
+
+.dark-theme .main-menu-sidebar .nav-menu .nav-item > a {
+    color: #f7f7f7;
+}
+.dark-theme .main-menu-sidebar .nav-menu .nav-item > a:hover {
+    color: #ffffff;
+}
+.dark-theme .main-menu-sidebar .nav-menu .nav-item.active > a {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+}
+.dark-theme .main-menu-sidebar .nav-menu .nav-item > ul > li > a {
+    color: #b6b7c6;
+}
+.dark-theme .main-menu-sidebar .nav-menu .nav-item > ul > li:hover > a {
+    color: #ffffff;
+}
+.dark-theme .main-menu-sidebar .nav-menu .nav-item > ul > li.active > a {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.dark-theme .navbar .toggle-show-sidebar.active{
+    color: #BFC3FF;
+}
+.dark-theme .navbar-info-icon {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    margin-top: 2px;
+    padding: 10px 12px;
+    position: relative;
+    color: #333333;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+.dark-theme .navbar-info-icon:hover,
+.dark-theme .navbar-info-icon:focus {
+    text-decoration: none;
+    background-color: #32345d;
+    border-radius: 50% !important;
+}
+
+.dark-theme .infoagenda.active{
+    background-color: #1B1D4E;
+    color: rgb(231, 231, 231);
+}
+
+.dark-theme .vanilla-calendar .vanilla-calendar-date{
+    background-color: #1B1D4E;
+    color: rgb(231, 231, 231);
+    border: 5px solid #1B1D4E;
+}
+.dark-theme .infoagenda .calendar-agenda-wrapper,
+.dark-theme .email-app .inbox .messages{
+    background-color: #32345d;
+}
+.dark-theme .email-app nav .nav .nav-item .nav-link{
+    color: rgb(231, 231, 231) !important;
+}
+.dark-theme .email-app .inbox .message:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.dark-theme .card,
+.dark-theme .card-header,
+.dark-theme .card-body{
+    background-color: #1B1D4E;
+    color: rgb(231, 231, 231);
+}
+.dark-theme .arrow-steps .step:before{
+    border-left: 17px solid #1B1D4E;
+}
+.dark-theme .md-step-title,
+.dark-theme .md-step-optional{
+    color: rgb(231, 231, 231) !important;
+}
+.dark-theme .timeline-content,{
+    color: #1B1D4E;
+}
+.dark-theme .navbar {
+    background-color: #1B1D4E;
+    color: #ffffff;
+}
+.dark-theme .ql-toolbar.ql-snow,
+.dark-theme .note-toolbar{
+background-color: #f7f7f7;
+} 
+.dark-theme .card a,
+.dark-theme .card p{
+    color: #ffffff;
+}
+.dark-theme .dropdown-menu.show,
+.dark-theme .dropdown-menu::before{
+    background-color: #32345d;
+    border-top: none;
+    border-left: none;
+}
+.dark-theme .dropdown-item:hover{
+    background-color: #c5c5c5;
+    color: #1B1D4E;
+}
+
+.dark-theme .table  thead,
+.dark-theme .table  tr,
+.dark-theme .table  td,
+.dark-theme .table {
+    background-color: #1B1D4E;
+    color: rgb(231, 231, 231);
+}
+.dark-theme .pagination .page-item.active .page-link, .pagination .page-item:hover .page-link {
+    background-color: rgb(35, 37, 95);
+    color: rgb(231, 231, 231);
+}
+.dark-theme .breadcrumb{
+    background-color: #32345d;
+    color: #3d46fc !important;
+}
+.dark-theme .breadcrumb a,
+.dark-theme .breadcrumb i{
+    color: rgb(231, 231, 231) !important;
+}
+
+.dark-theme .nav-pills .nav-link {
+   color: rgb(231, 231, 231);
+}
+.dark-theme .nav-pills .nav-link.active {
+    background-color: rgb(35, 37, 95);
+}
+.dark-theme .empty-state-details{
+    color: rgb(231, 231, 231);
+}
+.dark-theme .demo-content {
+    color: rgb(35, 37, 95);
+}
+.dark-theme .row-seven,
+.dark-theme .row-example,
+.dark-theme .row-flex-example,
+.dark-theme .example-flex{
+    color: rgb(35, 37, 95);
+    border: 1px solid rgb(231, 231, 231) !important;
+    background-color: #d3d3d3;
+}
+.dark-theme .navbar-info-icon {
+    color: #ffffff;
+}
+
+.dark-theme .list-group-item,
+.dark-theme {
+     background-color: #32345d;
+     outline: none !important;
+}
+.dark-theme .toast,
+.dark-theme .toast-body{
+    background-color: #32345d;
+}
+.dark-theme .toast-header{
+    background-color: #32345d !important;
+    color: color: #ffffff;;
+}
+.dark-theme .divider-text{
+    color: rgb(35, 37, 95);
+}
