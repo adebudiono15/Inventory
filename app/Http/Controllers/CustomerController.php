@@ -13,7 +13,7 @@ class CustomerController extends Controller
 
      private function _validation(Request $request){
         $request->validate([
-        'kode_customer' => 'required|max:3|min:3',
+        'kode_customer' => 'required|max:5|min:5',
         'nama' => 'required',
         'alamat' => 'required',
         'telepon' => 'required',
@@ -25,8 +25,8 @@ class CustomerController extends Controller
         'alamat.required' => 'Tidak Boleh Kosong',
         'telepon.required' => 'Tidak Boleh Kosong',
         'kategori_id.required' => 'Harus Dipilih',
-        'kode_customer.max' => 'Maximal 3 Digit',
-        'kode_customer.min' => 'Minimal 3 Digit',
+        'kode_customer.max' => 'Maximal 5 Digit',
+        'kode_customer.min' => 'Minimal 5 Digit',
         ]);
     }
 

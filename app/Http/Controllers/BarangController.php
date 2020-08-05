@@ -14,7 +14,7 @@ class BarangController extends Controller
 
     private function _validation(Request $request){
         $request->validate([
-            'kode_barang' => 'required|max:3|min:3',
+            'kode_barang' => 'required|max:5|min:5',
             'nama' => 'required',
             'harga' => 'required',
             'satuan_id' => 'required',
@@ -27,8 +27,8 @@ class BarangController extends Controller
         'satuan_id.required' => 'Tidak Boleh Kosong',
         'harga.required' => 'Tidak Boleh Kosong',
         'kategori_id.required' => 'Tidak Boleh Kosong',
-        'kode_barang.max' => 'Maximal 3 Digit',
-        'kode_barang.min' => 'Minimal 3 Digit',
+        'kode_barang.max' => 'Maximal 5 Digit',
+        'kode_barang.min' => 'Minimal 5 Digit',
         ]);
     }
 

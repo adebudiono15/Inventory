@@ -251,7 +251,14 @@
                       <div class="dropdown-divider"></div>
                   </li>
                   <li>
-                      <a class="dropdown-item" href="#"><i class="icon-power"></i> Logout</a>
+                      <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                         document.getElementById('logout-form').submit();">
+                          {{ __('Logout') }}
+                      </a>
+
+                      <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                          @csrf
+                      </form>
                   </li>
               </ul>
           </div>
